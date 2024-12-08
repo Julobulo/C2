@@ -1,6 +1,8 @@
 package main
 
-import "github.com/coremedic/C2Dev24/c2"
+import (
+	"github.com/Julobulo/C2/c2"
+)
 
 func main() {
 	listener := c2.HttpListener{
